@@ -327,7 +327,7 @@ container.setAttribute("class","container");
 
 
 
-                    input1.addEventListener("keypress",alpha);
+                    input1.addEventListener("keyup",alpha);
                         
                     function alpha(){
                               
