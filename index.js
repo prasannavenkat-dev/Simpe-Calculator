@@ -1,5 +1,6 @@
 
 
+
 /*CONTAINER*/
 
 var container = document.createElement("div");
@@ -382,16 +383,19 @@ function pressed(e){
     
     }
     
-    else{
+   
            
-        alertFun();
   
      
-    }
+    
   
 };
 
 
+setTimeout(function(){
+  alertFun();
+
+},500)
 
    
   function alertFun(){
