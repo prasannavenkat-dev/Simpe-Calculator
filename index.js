@@ -336,9 +336,9 @@ container.setAttribute("class","container");
                      
                                
                                 if(arr[arr.length-1]>='a'&&arr[arr.length-1]<='z'||arr[arr.length-1]>='A'&&arr[arr.length-1]<='Z'){
-                                    alert("Enter Number!")
+                                    
                                     input1.value = input1.value.substring(0,input1.value.length-1);     
-                     
+                                    alert("Enter Number!")
                             }
                           
                         
