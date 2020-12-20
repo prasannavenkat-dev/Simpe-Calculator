@@ -1,0 +1,133 @@
+.memory{
+    background-color: aqua;
+}
+
+
+.display{
+    background-color:#314e6e;
+     height:5vw;
+     font-size: 2.5vw;
+     padding: 0;
+     margin: 0;
+     color: whitesmoke;
+}
+
+.alertMsg{
+    height: 3vw;
+    width: 100%;
+    padding: 5% 3% 8%;
+    margin: 0;
+  
+}
+
+.container{
+
+     margin-top: 12%;
+     padding: 0 25%;
+    
+     
+       
+}
+
+input[type=text]{
+
+    width: 100%;
+    height: 5vw;
+    background-color:#314e6e;
+    
+    padding: 0;
+    margin: 0;
+    border: none;
+    color:whitesmoke
+}
+
+.memory{
+
+    padding-top: 3px;
+    margin: 0;
+    width: 100%;
+    height: ;
+    font-size: 2.5vw;
+    color: whitesmoke;
+    
+}
+
+#color_orange{
+
+    background-color: #f79231;
+}
+
+.orange1{
+    background-color: #f79231;
+    
+}
+
+
+.lightGrey{
+    background-color: #d6d6d6;
+}
+
+.darkGrey{
+    background-color: #d6d6d6;
+}
+.lightBlue{
+    background-color: #314e6e;
+
+}
+
+.calculator{
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    
+}
+
+
+body{
+    background-color:white
+}
+@media (min-width:767px){
+ 
+
+}
+@media (min-width:281px) and (max-width:414px){
+   .memory{
+       padding-bottom: 1%;
+   }
+   
+   
+.container{
+
+    margin-top: 12%;
+    padding: 0 13%;
+    
+      
+}
+
+.alertMsg{
+    padding: 10%;
+}
+ .btn{
+     font-size:5vw;
+ }
+
+}
+
+@media (max-width:280px){
+   
+    .btn{
+        font-size: 5vw;
+    }
+   
+     .container{
+ 
+     margin-top: 12%;
+     padding: 0 10%;      
+     }
+
+     input{
+         font-size: large;
+     }
+  
+}
+
